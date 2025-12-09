@@ -149,6 +149,14 @@ export default function Auth() {
               {isLogin ? 'Criar conta' : 'Fazer login'}
             </button>
           </p>
+
+          {/* 🔵 Mensagem adicionada exatamente na área indicada */}
+          <div className="mt-4 p-4 rounded-lg bg-blue-50 text-center text-sm text-blue-700 border border-blue-200">
+            <p className="font-semibold">Aplicação em desenvolvimento</p>
+            <p>Login de teste: <strong>admin@escola.edu.br</strong></p>
+            <p>Senha: <strong>admin123</strong></p>
+          </div>
+
         </div>
       </div>
 
